@@ -13,6 +13,6 @@ for (let index = 0; index <= 81; index++) {
 }
 let speed = 1
 basic.forever(function () {
-    tree.rainbowAnimation(speed)
+    tree.rotatePixelColor(speed)
     tree.update()
 })
