@@ -13,6 +13,6 @@ for (let index = 0; index <= 81; index++) {
 }
 let speed = 1
 basic.forever(function () {
-    tree.rotatePixelColor(0)
+    tree.rotatePixelColor(speed)
     tree.update()
 })
